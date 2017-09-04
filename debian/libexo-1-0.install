@@ -1,0 +1,5 @@
+usr/lib/*/libexo-1*.so.*
+usr/lib/*/xfce4/exo-1/exo-compose-mail-1
+usr/lib/*/xfce4/exo-1/exo-helper-1
+usr/share/locale/*/*/exo-1.mo
+usr/share/pixmaps/exo-1

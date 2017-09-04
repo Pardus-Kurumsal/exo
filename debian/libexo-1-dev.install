@@ -1,0 +1,4 @@
+usr/include/exo-1
+usr/lib/*/libexo-1.so
+usr/lib/*/pkgconfig/exo-1.pc
+usr/share/gtk-doc/html/exo-1/*
