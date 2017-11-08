@@ -1,3 +1,10 @@
+exo (0.11.5-1pardus1) onyedi; urgency=medium
+
+  * Pardus CI implementation
+  * Update control file
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Wed, 08 Nov 2017 10:46:53 +0300
+
 exo (0.11.5-1) experimental; urgency=medium
 
   [ Unit 193 ]
