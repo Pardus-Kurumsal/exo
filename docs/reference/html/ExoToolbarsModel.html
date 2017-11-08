@@ -1,0 +1,1604 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>ExoToolbarsModel: Exo Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="Exo Reference Manual">
+<link rel="up" href="exo-toolbars.html" title="Part II. Editable Toolbars">
+<link rel="prev" href="exo-toolbars.html" title="Part II. Editable Toolbars">
+<link rel="next" href="ExoToolbarsEditor.html" title="ExoToolbarsEditor">
+<meta name="generator" content="GTK-Doc V1.25 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#ExoToolbarsModel.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#ExoToolbarsModel.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_signals">  <span class="dim">|</span> 
+                  <a href="#ExoToolbarsModel.signals" class="shortcut">Signals</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="exo-toolbars.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="exo-toolbars.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="ExoToolbarsEditor.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="ExoToolbarsModel"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="ExoToolbarsModel.top_of_page"></a>ExoToolbarsModel</span></h2>
+<p>ExoToolbarsModel — The toolbars backend used by <a class="link" href="ExoToolbarsView.html" title="ExoToolbarsView"><span class="type">ExoToolbarsView</span></a></p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="ExoToolbarsModel.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_return">
+<col class="functions_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="returnvalue">ExoToolbarsModel</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-new" title="exo_toolbars_model_new ()">exo_toolbars_model_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-set-actions" title="exo_toolbars_model_set_actions ()">exo_toolbars_model_set_actions</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> **
+</td>
+<td class="function_name">
+<a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-get-actions" title="exo_toolbars_model_get_actions ()">exo_toolbars_model_get_actions</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-load-from-file" title="exo_toolbars_model_load_from_file ()">exo_toolbars_model_load_from_file</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-save-to-file" title="exo_toolbars_model_save_to_file ()">exo_toolbars_model_save_to_file</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="ExoToolbarsModel.html#ExoToolbarsModelFlags" title="enum ExoToolbarsModelFlags"><span class="returnvalue">ExoToolbarsModelFlags</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-get-flags" title="exo_toolbars_model_get_flags ()">exo_toolbars_model_get_flags</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-set-flags" title="exo_toolbars_model_set_flags ()">exo_toolbars_model_set_flags</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/gtk3gtk3-Standard-Enumerations.html#GtkToolbarStyle"><span class="returnvalue">GtkToolbarStyle</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-get-style" title="exo_toolbars_model_get_style ()">exo_toolbars_model_get_style</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-set-style" title="exo_toolbars_model_set_style ()">exo_toolbars_model_set_style</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-unset-style" title="exo_toolbars_model_unset_style ()">exo_toolbars_model_unset_style</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-get-item-type" title="exo_toolbars_model_get_item_type ()">exo_toolbars_model_get_item_type</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-get-item-id" title="exo_toolbars_model_get_item_id ()">exo_toolbars_model_get_item_id</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-get-item-data" title="exo_toolbars_model_get_item_data ()">exo_toolbars_model_get_item_data</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-add-item" title="exo_toolbars_model_add_item ()">exo_toolbars_model_add_item</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-add-separator" title="exo_toolbars_model_add_separator ()">exo_toolbars_model_add_separator</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="returnvalue">gint</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-add-toolbar" title="exo_toolbars_model_add_toolbar ()">exo_toolbars_model_add_toolbar</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-move-item" title="exo_toolbars_model_move_item ()">exo_toolbars_model_move_item</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-remove-item" title="exo_toolbars_model_remove_item ()">exo_toolbars_model_remove_item</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-remove-toolbar" title="exo_toolbars_model_remove_toolbar ()">exo_toolbars_model_remove_toolbar</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="returnvalue">gint</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-n-items" title="exo_toolbars_model_n_items ()">exo_toolbars_model_n_items</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-item-nth" title="exo_toolbars_model_item_nth ()">exo_toolbars_model_item_nth</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="returnvalue">gint</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-n-toolbars" title="exo_toolbars_model_n_toolbars ()">exo_toolbars_model_n_toolbars</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-toolbar-nth" title="exo_toolbars_model_toolbar_nth ()">exo_toolbars_model_toolbar_nth</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="ExoToolbarsModel.signals"></a><h2>Signals</h2>
+<div class="informaltable"><table class="informaltable" border="0">
+<colgroup>
+<col width="150px" class="signals_return">
+<col width="300px" class="signals_name">
+<col width="200px" class="signals_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="signal_type">
+<a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a>*</td>
+<td class="signal_name"><a class="link" href="ExoToolbarsModel.html#ExoToolbarsModel-get-item-data" title="The “get-item-data” signal">get-item-data</a></td>
+<td class="signal_flags"><a href="/usr/share/gtk-doc/html/gobjectgobject-Signals.html#G-SIGNAL-RUN-FIRST:CAPS">Run First</a></td>
+</tr>
+<tr>
+<td class="signal_type">
+<a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a>*</td>
+<td class="signal_name"><a class="link" href="ExoToolbarsModel.html#ExoToolbarsModel-get-item-id" title="The “get-item-id” signal">get-item-id</a></td>
+<td class="signal_flags"><a href="/usr/share/gtk-doc/html/gobjectgobject-Signals.html#G-SIGNAL-RUN-FIRST:CAPS">Run First</a></td>
+</tr>
+<tr>
+<td class="signal_type">
+<a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a>*</td>
+<td class="signal_name"><a class="link" href="ExoToolbarsModel.html#ExoToolbarsModel-get-item-type" title="The “get-item-type” signal">get-item-type</a></td>
+<td class="signal_flags"><a href="/usr/share/gtk-doc/html/gobjectgobject-Signals.html#G-SIGNAL-RUN-FIRST:CAPS">Run First</a></td>
+</tr>
+<tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="ExoToolbarsModel.html#ExoToolbarsModel-item-added" title="The “item-added” signal">item-added</a></td>
+<td class="signal_flags"><a href="/usr/share/gtk-doc/html/gobjectgobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></td>
+</tr>
+<tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="ExoToolbarsModel.html#ExoToolbarsModel-item-removed" title="The “item-removed” signal">item-removed</a></td>
+<td class="signal_flags"><a href="/usr/share/gtk-doc/html/gobjectgobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></td>
+</tr>
+<tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="ExoToolbarsModel.html#ExoToolbarsModel-toolbar-added" title="The “toolbar-added” signal">toolbar-added</a></td>
+<td class="signal_flags"><a href="/usr/share/gtk-doc/html/gobjectgobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></td>
+</tr>
+<tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="ExoToolbarsModel.html#ExoToolbarsModel-toolbar-changed" title="The “toolbar-changed” signal">toolbar-changed</a></td>
+<td class="signal_flags"><a href="/usr/share/gtk-doc/html/gobjectgobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></td>
+</tr>
+<tr>
+<td class="signal_type"><span class="returnvalue">void</span></td>
+<td class="signal_name"><a class="link" href="ExoToolbarsModel.html#ExoToolbarsModel-toolbar-removed" title="The “toolbar-removed” signal">toolbar-removed</a></td>
+<td class="signal_flags"><a href="/usr/share/gtk-doc/html/gobjectgobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="ExoToolbarsModel.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="name">
+<col class="description">
+</colgroup>
+<tbody>
+<tr>
+<td class="datatype_keyword">struct</td>
+<td class="function_name"><a class="link" href="ExoToolbarsModel.html#ExoToolbarsModel-struct" title="struct ExoToolbarsModel">ExoToolbarsModel</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="ExoToolbarsModel.html#ExoToolbarsModelFlags" title="enum ExoToolbarsModelFlags">ExoToolbarsModelFlags</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="ExoToolbarsModel.html#EXO-TOOLBARS-ITEM-TYPE:CAPS" title="EXO_TOOLBARS_ITEM_TYPE">EXO_TOOLBARS_ITEM_TYPE</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="ExoToolbarsModel.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    <a href="/usr/share/gtk-doc/html/gobjectgobject-The-Base-Object-Type.html#GObject-struct">GObject</a>
+    <span class="lineart">╰──</span> ExoToolbarsModel
+</pre>
+</div>
+<div class="refsect1">
+<a name="ExoToolbarsModel.includes"></a><h2>Includes</h2>
+<pre class="synopsis">#include &lt;exo/exo.h&gt;
+</pre>
+</div>
+<div class="refsect1">
+<a name="ExoToolbarsModel.description"></a><h2>Description</h2>
+<p>The <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> class includes the basic functionality to
+manage editable toolbars.</p>
+</div>
+<div class="refsect1">
+<a name="ExoToolbarsModel.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="exo-toolbars-model-new"></a><h3>exo_toolbars_model_new ()</h3>
+<pre class="programlisting"><a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="returnvalue">ExoToolbarsModel</span></a> *
+exo_toolbars_model_new (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>Creates a new <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> with a reference count
+of one.</p>
+<p>You need to call <a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-set-actions" title="exo_toolbars_model_set_actions ()"><code class="function">exo_toolbars_model_set_actions()</code></a> first, after
+you created an <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> to set the list of actions,
+that should be available from the toolbars.</p>
+<div class="refsect3">
+<a name="exo-toolbars-model-new.returns"></a><h4>Returns</h4>
+<p> A newly created <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a>.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="exo-toolbars-model-set-actions"></a><h3>exo_toolbars_model_set_actions ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+exo_toolbars_model_set_actions (<em class="parameter"><code><a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *model</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> **actions</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#guint"><span class="type">guint</span></a> n_actions</code></em>);</pre>
+<p>Specifies the list of valid actions for <em class="parameter"><code>model</code></em>
+. <em class="parameter"><code>model</code></em>
+ will only
+manage actions that are specified in this list. This function
+should be called right after you created <em class="parameter"><code>model</code></em>
+.</p>
+<div class="refsect3">
+<a name="exo-toolbars-model-set-actions.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>model</p></td>
+<td class="parameter_description"><p>An <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>actions</p></td>
+<td class="parameter_description"><p>A string array with action names.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>n_actions</p></td>
+<td class="parameter_description"><p>The number of strings in <em class="parameter"><code>actions</code></em>
+.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="exo-toolbars-model-get-actions"></a><h3>exo_toolbars_model_get_actions ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> **
+exo_toolbars_model_get_actions (<em class="parameter"><code><a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *model</code></em>);</pre>
+<p>Returns the list of valid actions for <em class="parameter"><code>model</code></em>
+.</p>
+<div class="refsect3">
+<a name="exo-toolbars-model-get-actions.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>model</p></td>
+<td class="parameter_description"><p>An <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="exo-toolbars-model-get-actions.returns"></a><h4>Returns</h4>
+<p> The list of valid actions for <em class="parameter"><code>model</code></em>
+.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="exo-toolbars-model-load-from-file"></a><h3>exo_toolbars_model_load_from_file ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+exo_toolbars_model_load_from_file (<em class="parameter"><code><a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *model</code></em>,
+                                   <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *filename</code></em>,
+                                   <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Parses a file containing a toolbars UI definition and merges it with
+the current contents of <em class="parameter"><code>model</code></em>
+.</p>
+<div class="refsect3">
+<a name="exo-toolbars-model-load-from-file.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>model</p></td>
+<td class="parameter_description"><p>An <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>filename</p></td>
+<td class="parameter_description"><p>The name of the file to parse.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>Return location for an error or <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="exo-toolbars-model-load-from-file.returns"></a><h4>Returns</h4>
+<p> <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if the data was successfully loaded from the file
+specified by <em class="parameter"><code>filename</code></em>
+, else <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a>.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="exo-toolbars-model-save-to-file"></a><h3>exo_toolbars_model_save_to_file ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+exo_toolbars_model_save_to_file (<em class="parameter"><code><a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *model</code></em>,
+                                 <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *filename</code></em>,
+                                 <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Stores the UI definition of the contents of <em class="parameter"><code>model</code></em>
+ to the file
+specified by <em class="parameter"><code>filename</code></em>
+.</p>
+<div class="refsect3">
+<a name="exo-toolbars-model-save-to-file.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>model</p></td>
+<td class="parameter_description"><p>An <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>filename</p></td>
+<td class="parameter_description"><p>The name of the file to save to.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>The return location for an error or <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="exo-toolbars-model-save-to-file.returns"></a><h4>Returns</h4>
+<p> <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if saving was successfully, else <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> is returned.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="exo-toolbars-model-get-flags"></a><h3>exo_toolbars_model_get_flags ()</h3>
+<pre class="programlisting"><a class="link" href="ExoToolbarsModel.html#ExoToolbarsModelFlags" title="enum ExoToolbarsModelFlags"><span class="returnvalue">ExoToolbarsModelFlags</span></a>
+exo_toolbars_model_get_flags (<em class="parameter"><code><a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *model</code></em>,
+                              <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="type">gint</span></a> toolbar_position</code></em>);</pre>
+<p>Returns the <a class="link" href="ExoToolbarsModel.html#ExoToolbarsModelFlags" title="enum ExoToolbarsModelFlags"><span class="type">ExoToolbarsModelFlags</span></a> associated with the
+toolbar at <em class="parameter"><code>toolbar_position</code></em>
+.</p>
+<div class="refsect3">
+<a name="exo-toolbars-model-get-flags.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>model</p></td>
+<td class="parameter_description"><p>An <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>toolbar_position</p></td>
+<td class="parameter_description"><p>The index of a toolbar in <em class="parameter"><code>model</code></em>
+.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="exo-toolbars-model-get-flags.returns"></a><h4>Returns</h4>
+<p> The <a class="link" href="ExoToolbarsModel.html#ExoToolbarsModelFlags" title="enum ExoToolbarsModelFlags"><span class="type">ExoToolbarsModelFlags</span></a> associated with <em class="parameter"><code>toolbar_position</code></em>
+.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="exo-toolbars-model-set-flags"></a><h3>exo_toolbars_model_set_flags ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+exo_toolbars_model_set_flags (<em class="parameter"><code><a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *model</code></em>,
+                              <em class="parameter"><code><a class="link" href="ExoToolbarsModel.html#ExoToolbarsModelFlags" title="enum ExoToolbarsModelFlags"><span class="type">ExoToolbarsModelFlags</span></a> flags</code></em>,
+                              <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="type">gint</span></a> toolbar_position</code></em>);</pre>
+<p>Changes the <a class="link" href="ExoToolbarsModel.html#ExoToolbarsModelFlags" title="enum ExoToolbarsModelFlags"><span class="type">ExoToolbarsModelFlags</span></a> associated with the
+toolbar at <em class="parameter"><code>toolbar_position</code></em>
+ to the value of <em class="parameter"><code>flags</code></em>
+.</p>
+<div class="refsect3">
+<a name="exo-toolbars-model-set-flags.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>model</p></td>
+<td class="parameter_description"><p>An <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>flags</p></td>
+<td class="parameter_description"><p>The new flags for <em class="parameter"><code>toolbar_position</code></em>
+.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>toolbar_position</p></td>
+<td class="parameter_description"><p>The index of a toolbar in <em class="parameter"><code>model</code></em>
+.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="exo-toolbars-model-get-style"></a><h3>exo_toolbars_model_get_style ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/gtk3gtk3-Standard-Enumerations.html#GtkToolbarStyle"><span class="returnvalue">GtkToolbarStyle</span></a>
+exo_toolbars_model_get_style (<em class="parameter"><code><a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *model</code></em>,
+                              <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="type">gint</span></a> toolbar_position</code></em>);</pre>
+<p>Returns the overridden <a href="/usr/share/gtk-doc/html/gtk3gtk3-Standard-Enumerations.html#GtkToolbarStyle"><span class="type">GtkToolbarStyle</span></a> for the toolbar
+at <em class="parameter"><code>toolbar_position</code></em>
+. Should only be used if
+<a class="link" href="ExoToolbarsModel.html#EXO-TOOLBARS-MODEL-OVERRIDE-STYLE:CAPS"><code class="literal">EXO_TOOLBARS_MODEL_OVERRIDE_STYLE</code></a> is set for the
+toolbar.</p>
+<div class="refsect3">
+<a name="exo-toolbars-model-get-style.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>model</p></td>
+<td class="parameter_description"><p>An <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>toolbar_position</p></td>
+<td class="parameter_description"><p>The index of a toolbar in <em class="parameter"><code>model</code></em>
+.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="exo-toolbars-model-get-style.returns"></a><h4>Returns</h4>
+<p> The <a href="/usr/share/gtk-doc/html/gtk3gtk3-Standard-Enumerations.html#GtkToolbarStyle"><span class="type">GtkToolbarStyle</span></a> associated with <em class="parameter"><code>toolbar_position</code></em>
+.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="exo-toolbars-model-set-style"></a><h3>exo_toolbars_model_set_style ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+exo_toolbars_model_set_style (<em class="parameter"><code><a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *model</code></em>,
+                              <em class="parameter"><code><a href="/usr/share/gtk-doc/html/gtk3gtk3-Standard-Enumerations.html#GtkToolbarStyle"><span class="type">GtkToolbarStyle</span></a> style</code></em>,
+                              <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="type">gint</span></a> toolbar_position</code></em>);</pre>
+<p>Sets the style to use for a particular toolbar in <em class="parameter"><code>model</code></em>
+. You can
+undo the effect of this function by calling
+<a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-unset-style" title="exo_toolbars_model_unset_style ()"><code class="function">exo_toolbars_model_unset_style()</code></a>.</p>
+<div class="refsect3">
+<a name="exo-toolbars-model-set-style.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>model</p></td>
+<td class="parameter_description"><p>An <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>style</p></td>
+<td class="parameter_description"><p>A <a href="/usr/share/gtk-doc/html/gtk3gtk3-Standard-Enumerations.html#GtkToolbarStyle"><span class="type">GtkToolbarStyle</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>toolbar_position</p></td>
+<td class="parameter_description"><p>The index of a toolbar in <em class="parameter"><code>model</code></em>
+.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="exo-toolbars-model-unset-style"></a><h3>exo_toolbars_model_unset_style ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+exo_toolbars_model_unset_style (<em class="parameter"><code><a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *model</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="type">gint</span></a> toolbar_position</code></em>);</pre>
+<p>Undoes the effect of <a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-unset-style" title="exo_toolbars_model_unset_style ()"><code class="function">exo_toolbars_model_unset_style()</code></a> and resets
+the style of the specified toolbar to the system default.</p>
+<div class="refsect3">
+<a name="exo-toolbars-model-unset-style.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>model</p></td>
+<td class="parameter_description"><p>An <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>toolbar_position</p></td>
+<td class="parameter_description"><p>The index of a toolbar in <em class="parameter"><code>model</code></em>
+.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="exo-toolbars-model-get-item-type"></a><h3>exo_toolbars_model_get_item_type ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+exo_toolbars_model_get_item_type (<em class="parameter"><code><a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *model</code></em>,
+                                  <em class="parameter"><code><a href="/usr/share/gtk-doc/html/gdk3gdk3-Properties-and-Atoms.html#GdkAtom"><span class="type">GdkAtom</span></a> dnd_type</code></em>);</pre>
+<p>FIXME.</p>
+<div class="refsect3">
+<a name="exo-toolbars-model-get-item-type.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>model</p></td>
+<td class="parameter_description"><p>An <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>dnd_type</p></td>
+<td class="parameter_description"><p>FIXME.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="exo-toolbars-model-get-item-type.returns"></a><h4>Returns</h4>
+<p> FIXME.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="exo-toolbars-model-get-item-id"></a><h3>exo_toolbars_model_get_item_id ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+exo_toolbars_model_get_item_id (<em class="parameter"><code><a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *model</code></em>,
+                                <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *type</code></em>,
+                                <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *name</code></em>);</pre>
+<p>FIXME.</p>
+<div class="refsect3">
+<a name="exo-toolbars-model-get-item-id.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>model</p></td>
+<td class="parameter_description"><p>An <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>type</p></td>
+<td class="parameter_description"><p>FIXME.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>name</p></td>
+<td class="parameter_description"><p>FIXME.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="exo-toolbars-model-get-item-id.returns"></a><h4>Returns</h4>
+<p> FIXME.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="exo-toolbars-model-get-item-data"></a><h3>exo_toolbars_model_get_item_data ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+exo_toolbars_model_get_item_data (<em class="parameter"><code><a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *model</code></em>,
+                                  <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *type</code></em>,
+                                  <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *id</code></em>);</pre>
+<p>FIXME.</p>
+<div class="refsect3">
+<a name="exo-toolbars-model-get-item-data.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>model</p></td>
+<td class="parameter_description"><p>An <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>type</p></td>
+<td class="parameter_description"><p>FIXME.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>id</p></td>
+<td class="parameter_description"><p>FIXME.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="exo-toolbars-model-get-item-data.returns"></a><h4>Returns</h4>
+<p> FIXME.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="exo-toolbars-model-add-item"></a><h3>exo_toolbars_model_add_item ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+exo_toolbars_model_add_item (<em class="parameter"><code><a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *model</code></em>,
+                             <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="type">gint</span></a> toolbar_position</code></em>,
+                             <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="type">gint</span></a> item_position</code></em>,
+                             <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *id</code></em>,
+                             <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *type</code></em>);</pre>
+<p>Adds a new toolbar item with the specified <em class="parameter"><code>type</code></em>
+ and <em class="parameter"><code>id</code></em>
+ to <em class="parameter"><code>model</code></em>
+,
+where <em class="parameter"><code>id</code></em>
+ has to be a valid action name for <em class="parameter"><code>model</code></em>
+, that was previously
+set with <a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-set-actions" title="exo_toolbars_model_set_actions ()"><code class="function">exo_toolbars_model_set_actions()</code></a>.</p>
+<div class="refsect3">
+<a name="exo-toolbars-model-add-item.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>model</p></td>
+<td class="parameter_description"><p>An <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>toolbar_position</p></td>
+<td class="parameter_description"><p>The index of toolbar in <em class="parameter"><code>model</code></em>
+.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>item_position</p></td>
+<td class="parameter_description"><p>The position in the specified toolbar or -1.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>id</p></td>
+<td class="parameter_description"><p>The identifier of the new item.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>type</p></td>
+<td class="parameter_description"><p>The type of the new item.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="exo-toolbars-model-add-item.returns"></a><h4>Returns</h4>
+<p> <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if the item was added successfully, else <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a>.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="exo-toolbars-model-add-separator"></a><h3>exo_toolbars_model_add_separator ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+exo_toolbars_model_add_separator (<em class="parameter"><code><a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *model</code></em>,
+                                  <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="type">gint</span></a> toolbar_position</code></em>,
+                                  <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="type">gint</span></a> item_position</code></em>);</pre>
+<p>Adds a new separator item to the specified toolbar in <em class="parameter"><code>model</code></em>
+. If
+you specify -1 for <em class="parameter"><code>item_position</code></em>
+, the separator will be appended
+to the toolbar, else it will be inserted at the specified <em class="parameter"><code>item_position</code></em>
+.</p>
+<div class="refsect3">
+<a name="exo-toolbars-model-add-separator.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>model</p></td>
+<td class="parameter_description"><p>An <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>toolbar_position</p></td>
+<td class="parameter_description"><p>The index of a toolbar in <em class="parameter"><code>model</code></em>
+.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>item_position</p></td>
+<td class="parameter_description"><p>The position in the specified toolbar or -1.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="exo-toolbars-model-add-toolbar"></a><h3>exo_toolbars_model_add_toolbar ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="returnvalue">gint</span></a>
+exo_toolbars_model_add_toolbar (<em class="parameter"><code><a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *model</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="type">gint</span></a> toolbar_position</code></em>,
+                                <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *name</code></em>);</pre>
+<p>Adds a new toolbar to <em class="parameter"><code>model</code></em>
+. If you specify -1 for <em class="parameter"><code>toolbar_position</code></em>
+,
+the toolbar will be appended to <em class="parameter"><code>model</code></em>
+; else the toolbar will be
+inserted at the specified position. Emits the ::toolbar-added
+signal.</p>
+<div class="refsect3">
+<a name="exo-toolbars-model-add-toolbar.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>model</p></td>
+<td class="parameter_description"><p>An <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>toolbar_position</p></td>
+<td class="parameter_description"><p>Where to insert the new toolbar in <em class="parameter"><code>model</code></em>
+or -1 to append the toolbar.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>name</p></td>
+<td class="parameter_description"><p>The name of the new toolbar.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="exo-toolbars-model-add-toolbar.returns"></a><h4>Returns</h4>
+<p> The real position of the new toolbar in <em class="parameter"><code>model</code></em>
+.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="exo-toolbars-model-move-item"></a><h3>exo_toolbars_model_move_item ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+exo_toolbars_model_move_item (<em class="parameter"><code><a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *model</code></em>,
+                              <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="type">gint</span></a> toolbar_position</code></em>,
+                              <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="type">gint</span></a> item_position</code></em>,
+                              <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="type">gint</span></a> new_toolbar_position</code></em>,
+                              <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="type">gint</span></a> new_item_position</code></em>);</pre>
+<p>Moves an item to another position. The move operation
+is done by first removing the specified item and afterwards
+readding the item at the new position. Therefore, this
+functions emits the ::item-removed and ::item-added
+signals.</p>
+<div class="refsect3">
+<a name="exo-toolbars-model-move-item.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>model</p></td>
+<td class="parameter_description"><p>An <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>toolbar_position</p></td>
+<td class="parameter_description"><p>Old toolbar index.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>item_position</p></td>
+<td class="parameter_description"><p>Old item index.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>new_toolbar_position</p></td>
+<td class="parameter_description"><p>New toolbar index.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>new_item_position</p></td>
+<td class="parameter_description"><p>New item index.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="exo-toolbars-model-remove-item"></a><h3>exo_toolbars_model_remove_item ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+exo_toolbars_model_remove_item (<em class="parameter"><code><a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *model</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="type">gint</span></a> toolbar_position</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="type">gint</span></a> item_position</code></em>);</pre>
+<p>Removes the toolbar item at <em class="parameter"><code>item_position</code></em>
+ from the toolbar
+<em class="parameter"><code>toolbar_position</code></em>
+ in <em class="parameter"><code>model</code></em>
+ and emits the ::item-removed
+signal.</p>
+<div class="refsect3">
+<a name="exo-toolbars-model-remove-item.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>model</p></td>
+<td class="parameter_description"><p>An <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>toolbar_position</p></td>
+<td class="parameter_description"><p>A toolbar index.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>item_position</p></td>
+<td class="parameter_description"><p>The index of the item to remove.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="exo-toolbars-model-remove-toolbar"></a><h3>exo_toolbars_model_remove_toolbar ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+exo_toolbars_model_remove_toolbar (<em class="parameter"><code><a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *model</code></em>,
+                                   <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="type">gint</span></a> toolbar_position</code></em>);</pre>
+<p>Removes the specified toolbar from <em class="parameter"><code>model</code></em>
+ and emits
+the ::toolbar-removed signal.</p>
+<div class="refsect3">
+<a name="exo-toolbars-model-remove-toolbar.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>model</p></td>
+<td class="parameter_description"><p>A <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>toolbar_position</p></td>
+<td class="parameter_description"><p>The index of a toolbar in <em class="parameter"><code>model</code></em>
+.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="exo-toolbars-model-n-items"></a><h3>exo_toolbars_model_n_items ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="returnvalue">gint</span></a>
+exo_toolbars_model_n_items (<em class="parameter"><code><a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *model</code></em>,
+                            <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="type">gint</span></a> toolbar_position</code></em>);</pre>
+<p>Returns the number of items in the specified toolbar.</p>
+<div class="refsect3">
+<a name="exo-toolbars-model-n-items.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>model</p></td>
+<td class="parameter_description"><p>An <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>toolbar_position</p></td>
+<td class="parameter_description"><p>The index of a toolbar in <em class="parameter"><code>model</code></em>
+.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="exo-toolbars-model-n-items.returns"></a><h4>Returns</h4>
+<p> The number of items in the specified toolbar.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="exo-toolbars-model-item-nth"></a><h3>exo_toolbars_model_item_nth ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+exo_toolbars_model_item_nth (<em class="parameter"><code><a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *model</code></em>,
+                             <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="type">gint</span></a> toolbar_position</code></em>,
+                             <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="type">gint</span></a> item_position</code></em>,
+                             <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> *is_separator</code></em>,
+                             <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> **id</code></em>,
+                             <em class="parameter"><code>const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a> **type</code></em>);</pre>
+<p>Queries the properites of the toolbar item at <em class="parameter"><code>item_position</code></em>
+ in toolbar
+<em class="parameter"><code>toolbar_position</code></em>
+.</p>
+<div class="refsect3">
+<a name="exo-toolbars-model-item-nth.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>model</p></td>
+<td class="parameter_description"><p>An <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>toolbar_position</p></td>
+<td class="parameter_description"><p>The index of a toolbar in <em class="parameter"><code>model</code></em>
+.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>item_position</p></td>
+<td class="parameter_description"><p>The index of an item in the specified toolbar.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>is_separator</p></td>
+<td class="parameter_description"><p>Return location for the separator setting or <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>id</p></td>
+<td class="parameter_description"><p>Return location for the item id or <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>type</p></td>
+<td class="parameter_description"><p>Return location for the item type or <a href="/usr/share/gtk-doc/html/glibglib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="exo-toolbars-model-n-toolbars"></a><h3>exo_toolbars_model_n_toolbars ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="returnvalue">gint</span></a>
+exo_toolbars_model_n_toolbars (<em class="parameter"><code><a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *model</code></em>);</pre>
+<p>Returns the number of toolbars currently
+managed by <em class="parameter"><code>model</code></em>
+.</p>
+<div class="refsect3">
+<a name="exo-toolbars-model-n-toolbars.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>model</p></td>
+<td class="parameter_description"><p>An <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="exo-toolbars-model-n-toolbars.returns"></a><h4>Returns</h4>
+<p> The number of toolbars in <em class="parameter"><code>model</code></em>
+.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="exo-toolbars-model-toolbar-nth"></a><h3>exo_toolbars_model_toolbar_nth ()</h3>
+<pre class="programlisting">const <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *
+exo_toolbars_model_toolbar_nth (<em class="parameter"><code><a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *model</code></em>,
+                                <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="type">gint</span></a> toolbar_position</code></em>);</pre>
+<p>Returns the name of the toolbar at <em class="parameter"><code>toolbar_position</code></em>
+ in
+<em class="parameter"><code>model</code></em>
+.</p>
+<div class="refsect3">
+<a name="exo-toolbars-model-toolbar-nth.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>model</p></td>
+<td class="parameter_description"><p>An <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a>.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>toolbar_position</p></td>
+<td class="parameter_description"><p>The index of a toolbar in <em class="parameter"><code>model</code></em>
+.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="exo-toolbars-model-toolbar-nth.returns"></a><h4>Returns</h4>
+<p> The name of the toolbar at <em class="parameter"><code>toolbar_position</code></em>
+in <em class="parameter"><code>model</code></em>
+.</p>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="ExoToolbarsModel.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="ExoToolbarsModel-struct"></a><h3>struct ExoToolbarsModel</h3>
+<pre class="programlisting">struct ExoToolbarsModel;</pre>
+<p>The <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> struct contains only private fields and should
+not be directly accessed.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ExoToolbarsModelFlags"></a><h3>enum ExoToolbarsModelFlags</h3>
+<p>Flags available for <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a>.</p>
+<div class="refsect3">
+<a name="ExoToolbarsModelFlags.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="EXO-TOOLBARS-MODEL-NOT-REMOVABLE:CAPS"></a>EXO_TOOLBARS_MODEL_NOT_REMOVABLE</p></td>
+<td class="enum_member_description">
+<p>Not possible to remove items from the model.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="EXO-TOOLBARS-MODEL-ACCEPT-ITEMS-ONLY:CAPS"></a>EXO_TOOLBARS_MODEL_ACCEPT_ITEMS_ONLY</p></td>
+<td class="enum_member_description">
+<p>Only accept new item, dragging items around
+                                        is disabled.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="EXO-TOOLBARS-MODEL-OVERRIDE-STYLE:CAPS"></a>EXO_TOOLBARS_MODEL_OVERRIDE_STYLE</p></td>
+<td class="enum_member_description">
+<p>If set, the <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a>
+                                        accepts a custom <a href="/usr/share/gtk-doc/html/gtk3gtk3-Standard-Enumerations.html#GtkToolbarStyle"><span class="type">GtkToolbarStyle</span></a>. See
+                                        <a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-set-style" title="exo_toolbars_model_set_style ()"><code class="function">exo_toolbars_model_set_style()</code></a>.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="EXO-TOOLBARS-ITEM-TYPE:CAPS"></a><h3>EXO_TOOLBARS_ITEM_TYPE</h3>
+<pre class="programlisting">#define             EXO_TOOLBARS_ITEM_TYPE</pre>
+<p>The string used for drag-and-drop in the toolbars editor/model.</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="ExoToolbarsModel.signal-details"></a><h2>Signal Details</h2>
+<div class="refsect2">
+<a name="ExoToolbarsModel-get-item-data"></a><h3>The <code class="literal">“get-item-data”</code> signal</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a>*
+user_function (<a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *arg0,
+               <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a>            *arg1,
+               <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a>            *arg2,
+               <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a>          user_data)</pre>
+<p>This signal is emitted whenever the <a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-get-item-data" title="exo_toolbars_model_get_item_data ()"><code class="function">exo_toolbars_model_get_item_data()</code></a>
+method is called.</p>
+<div class="refsect3">
+<a name="ExoToolbarsModel-get-item-data.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>user data set when the signal handler was connected.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<p>Flags: <a href="/usr/share/gtk-doc/html/gobjectgobject-Signals.html#G-SIGNAL-RUN-FIRST:CAPS">Run First</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ExoToolbarsModel-get-item-id"></a><h3>The <code class="literal">“get-item-id”</code> signal</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a>*
+user_function (<a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *arg0,
+               <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a>            *arg1,
+               <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="type">gchar</span></a>            *arg2,
+               <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a>          user_data)</pre>
+<p>This signal is emitted whenever the <a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-get-item-id" title="exo_toolbars_model_get_item_id ()"><code class="function">exo_toolbars_model_get_item_id()</code></a>
+method is called.</p>
+<div class="refsect3">
+<a name="ExoToolbarsModel-get-item-id.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>user data set when the signal handler was connected.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<p>Flags: <a href="/usr/share/gtk-doc/html/gobjectgobject-Signals.html#G-SIGNAL-RUN-FIRST:CAPS">Run First</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ExoToolbarsModel-get-item-type"></a><h3>The <code class="literal">“get-item-type”</code> signal</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a>*
+user_function (<a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *arg0,
+               <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a>          arg1,
+               <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a>          user_data)</pre>
+<p>This signal is emitted whenever the <a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-get-item-type" title="exo_toolbars_model_get_item_type ()"><code class="function">exo_toolbars_model_get_item_type()</code></a>
+method is called.</p>
+<div class="refsect3">
+<a name="ExoToolbarsModel-get-item-type.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>user data set when the signal handler was connected.</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<p>Flags: <a href="/usr/share/gtk-doc/html/gobjectgobject-Signals.html#G-SIGNAL-RUN-FIRST:CAPS">Run First</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ExoToolbarsModel-item-added"></a><h3>The <code class="literal">“item-added”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *model,
+               <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="type">gint</span></a>              toolbar_position,
+               <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="type">gint</span></a>              item_position,
+               <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a>          user_data)</pre>
+<p>This signal is emitted whenever a new item is added to a toolbar
+managed by <em class="parameter"><code>model</code></em>
+.</p>
+<div class="refsect3">
+<a name="ExoToolbarsModel-item-added.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>model</p></td>
+<td class="parameter_description"><p>The <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> to which an item was added.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>toolbar_position</p></td>
+<td class="parameter_description"><p>The index of the toolbar in <em class="parameter"><code>model</code></em>
+to which the item
+was added.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>item_position</p></td>
+<td class="parameter_description"><p>The index of the new item in the specified toolbar.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>user data set when the signal handler was connected.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p>Flags: <a href="/usr/share/gtk-doc/html/gobjectgobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ExoToolbarsModel-item-removed"></a><h3>The <code class="literal">“item-removed”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *model,
+               <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="type">gint</span></a>              toolbar_position,
+               <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="type">gint</span></a>              item_position,
+               <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a>          user_data)</pre>
+<p>This signal is emitted whenever an item is removed from a toolbar
+managed by <em class="parameter"><code>model</code></em>
+.</p>
+<div class="refsect3">
+<a name="ExoToolbarsModel-item-removed.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>model</p></td>
+<td class="parameter_description"><p>The <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> from which an item was removed.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>toolbar_position</p></td>
+<td class="parameter_description"><p>The index of the toolbar in <em class="parameter"><code>model</code></em>
+from which
+the item was removed.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>item_position</p></td>
+<td class="parameter_description"><p>The index of the item in the specified toolbar.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>user data set when the signal handler was connected.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p>Flags: <a href="/usr/share/gtk-doc/html/gobjectgobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ExoToolbarsModel-toolbar-added"></a><h3>The <code class="literal">“toolbar-added”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *model,
+               <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="type">gint</span></a>              toolbar_position,
+               <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a>          user_data)</pre>
+<p>This signal is emitted whenever a new toolbar is added to <em class="parameter"><code>model</code></em>
+.</p>
+<div class="refsect3">
+<a name="ExoToolbarsModel-toolbar-added.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>model</p></td>
+<td class="parameter_description"><p>The <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> to which a new toolbar was
+added.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>toolbar_position</p></td>
+<td class="parameter_description"><p>The index of the new toolbar in <em class="parameter"><code>model</code></em>
+.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>user data set when the signal handler was connected.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p>Flags: <a href="/usr/share/gtk-doc/html/gobjectgobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ExoToolbarsModel-toolbar-changed"></a><h3>The <code class="literal">“toolbar-changed”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *model,
+               <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="type">gint</span></a>              toolbar_position,
+               <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a>          user_data)</pre>
+<p>This signal is emitted whenever the flags or the style of a toolbar
+change, which is managed by <em class="parameter"><code>model</code></em>
+. All views connected to <em class="parameter"><code>model</code></em>
+
+should then update their internal state of the specified toolbar.</p>
+<div class="refsect3">
+<a name="ExoToolbarsModel-toolbar-changed.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>model</p></td>
+<td class="parameter_description"><p>The <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> that manages the changed
+toolbar.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>toolbar_position</p></td>
+<td class="parameter_description"><p>The index of the changed toolbar in <em class="parameter"><code>model</code></em>
+.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>user data set when the signal handler was connected.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p>Flags: <a href="/usr/share/gtk-doc/html/gobjectgobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="ExoToolbarsModel-toolbar-removed"></a><h3>The <code class="literal">“toolbar-removed”</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+user_function (<a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> *model,
+               <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gint"><span class="type">gint</span></a>              toolbar_position,
+               <a href="/usr/share/gtk-doc/html/glibglib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a>          user_data)</pre>
+<p>This signal is emitted whenever a toolbar is removed from <em class="parameter"><code>model</code></em>
+.</p>
+<div class="refsect3">
+<a name="ExoToolbarsModel-toolbar-removed.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>model</p></td>
+<td class="parameter_description"><p>The <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>toolbar_position</p></td>
+<td class="parameter_description"><p>The index of the toolbar in <em class="parameter"><code>model</code></em>
+that was
+removed.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>user data set when the signal handler was connected.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p>Flags: <a href="/usr/share/gtk-doc/html/gobjectgobject-Signals.html#G-SIGNAL-RUN-LAST:CAPS">Run Last</a></p>
+</div>
+</div>
+<div class="refsect1">
+<a name="ExoToolbarsModel.see-also"></a><h2>See Also</h2>
+<p><a class="link" href="ExoToolbarsView.html" title="ExoToolbarsView"><span class="type">ExoToolbarsView</span></a>, <a class="link" href="ExoToolbarsEditor.html" title="ExoToolbarsEditor"><span class="type">ExoToolbarsEditor</span></a>, <a class="link" href="ExoToolbarsEditorDialog.html" title="ExoToolbarsEditorDialog"><span class="type">ExoToolbarsEditorDialog</span></a></p>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.25</div>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>exo-csource: Exo Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="Exo Reference Manual">
+<link rel="up" href="exo-tools.html" title="Part VIII. Tools">
+<link rel="prev" href="exo-tools.html" title="Part VIII. Tools">
+<link rel="next" href="ch01.html" title="API Index">
+<meta name="generator" content="GTK-Doc V1.25 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts"></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="exo-tools.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="exo-tools.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="ch01.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="exo-csource"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle">exo-csource</span></h2>
+<p>exo-csource — C code generation utility for arbitrary data</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<div class="cmdsynopsis"><p><code class="command">exo-csource</code>  [options] [file]</p></div>
+<div class="cmdsynopsis"><p><code class="command">exo-csource</code>  [options]  --build-list  [
+        [name]
+         [file]
+      ...]</p></div>
+</div>
+<div class="refsect1">
+<a name="id-1.9.3.4"></a><h2>Description</h2>
+<p>
+      <span class="command"><strong>exo-csource</strong></span> is a small utility that generates C code
+      containing arbitrary data, useful for compiling texts or other data
+      directly into programs.
+    </p>
+</div>
+<div class="refsect1">
+<a name="id-1.9.3.5"></a><h2>Invocation</h2>
+<p>
+      <span class="command"><strong>exo-csource</strong></span> either takes as input one file name to
+      generate code for, or, using the <code class="option">--build-list</code> option,
+      a list of (<em class="replaceable"><code>name</code></em>, <em class="replaceable"><code>file</code></em>)
+      pairs to generate code for a list of images into named variables.
+    </p>
+<div class="refsect2">
+<a name="id-1.9.3.5.3"></a><h3>Options</h3>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term"><code class="option">-h</code>, <code class="option">--help</code></span></p></td>
+<td><p>Print brief help and exit.</p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">-v</code>, <code class="option">--version</code></span></p></td>
+<td><p>Print version information and exit.</p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">--extern</code></span></p></td>
+<td><p>Generate extern symbols.</p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">--static</code></span></p></td>
+<td><p>Generate static symbols (default).</p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">--name=identifier</code></span></p></td>
+<td><p>
+              Specifies the <em class="parameter"><code>identifier</code></em> name (prefix) for the
+              generated variables (only used if <code class="option">--build-list</code> was
+              not specified as well).
+            </p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">--build-list</code></span></p></td>
+<td><p>
+              Enables (<em class="replaceable"><code>name</code></em>, <em class="replaceable"><code>file</code></em>)
+              pair parsing mode.
+            </p></td>
+</tr>
+<tr>
+<td><p><span class="term"><code class="option">--output=identifier</code></span></p></td>
+<td><p>
+              Prints the output to <em class="parameter"><code>identifier</code></em> instead of
+              stdout (only used if <code class="option">--build-list</code> was
+              not specified as well).
+            </p></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="refsect1">
+<a name="id-1.9.3.6"></a><h2>See also</h2>
+<p>
+      The <span class="command"><strong>gdk-pixbuf-csource</strong></span> utility which ships with the Gtk+
+      distribution, available from <a class="ulink" href="http://www.gtk.org" target="_top">www.gtk.org</a>.
+    </p>
+</div>
+<div class="refsect1">
+<a name="id-1.9.3.7"></a><h2>Author</h2>
+<p>
+      <span class="command"><strong>exo-csource</strong></span> was written by Benedikt Meurer
+      <code class="email">&lt;<a class="email" href="mailto:benny@xfce.org">benny@xfce.org</a>&gt;</code>.
+    </p>
+<p>
+      This manual page was provided by Benedikt Meurer <code class="email">&lt;<a class="email" href="mailto:benny@xfce.org">benny@xfce.org</a>&gt;</code>.
+    </p>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.25</div>
+</body>
+</html>

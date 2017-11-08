@@ -1,0 +1,1391 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Aljoša Žagar <anthon.manix@gmail.com>, 2017
+# Ta Kernc, 2015-2016
+# Klemen Košir <klemen.kosir@kream.io>, 2013
+# ansich <mojmejlzaforume@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: Exo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-12 06:30+0200\n"
+"PO-Revision-Date: 2017-04-21 08:41+0000\n"
+"Last-Translator: Aljoša Žagar <anthon.manix@gmail.com>\n"
+"Language-Team: Slovenian (http://www.transifex.com/xfce/exo/language/sl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sl\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+
+#: ../exo/exo-cell-renderer-ellipsized-text.c:131
+#: ../exo/exo-cell-renderer-icon.c:160
+msgid "Follow state"
+msgstr "Sledi stanju"
+
+#: ../exo/exo-cell-renderer-ellipsized-text.c:132
+#: ../exo/exo-cell-renderer-icon.c:161
+msgid "Render differently based on the selection state."
+msgstr "Upodobi razlino, glede na stanje izbora."
+
+#: ../exo/exo-cell-renderer-icon.c:182
+msgid "Icon"
+msgstr "Ikona"
+
+#: ../exo/exo-cell-renderer-icon.c:183
+msgid "The icon to render."
+msgstr "Ikona za upodobitev."
+
+#: ../exo/exo-cell-renderer-icon.c:201
+msgid "GIcon"
+msgstr "GIcon"
+
+#: ../exo/exo-cell-renderer-icon.c:202
+msgid "The GIcon to render."
+msgstr "Gicon za upodobitev."
+
+#: ../exo/exo-cell-renderer-icon.c:223
+msgid "size"
+msgstr "velikost"
+
+#: ../exo/exo-cell-renderer-icon.c:224
+msgid "The size of the icon to render in pixels."
+msgstr "Velikost ikon za upodobitev, v pikslih."
+
+#: ../exo/exo-gdk-pixbuf-extensions.c:787
+#, c-format
+msgid "Failed to open file \"%s\": %s"
+msgstr "Neuspeh pri odpiranju datoteke \"%s\": %s"
+
+#: ../exo/exo-gdk-pixbuf-extensions.c:855
+#, c-format
+msgid "Failed to read file \"%s\": %s"
+msgstr "Napaka pri branju datoteke \"%s\": %s"
+
+#: ../exo/exo-gdk-pixbuf-extensions.c:896
+#, c-format
+msgid "Failed to load image \"%s\": Unknown reason, probably a corrupt image file"
+msgstr "Napaka pri nalaganju slike \"%s\": Razlog neznan, najverjetneje okvara slikovne datoteke"
+
+#: ../exo/exo-gtk-extensions.c:242
+#, c-format
+msgid "Failed to open \"%s\"."
+msgstr "Napaka pri odpiranju \"%s\"."
+
+#: ../exo/exo-icon-bar.c:277 ../exo/exo-icon-view.c:879
+msgid "Orientation"
+msgstr "Usmerjenost"
+
+#: ../exo/exo-icon-bar.c:278
+msgid "The orientation of the iconbar"
+msgstr "Usmerjenost ikonske vrstice"
+
+#: ../exo/exo-icon-bar.c:294 ../exo/exo-icon-view.c:896
+msgid "Pixbuf column"
+msgstr "Pixbuf stolpec"
+
+#: ../exo/exo-icon-bar.c:295 ../exo/exo-icon-view.c:897
+msgid "Model column used to retrieve the icon pixbuf from"
+msgstr "Vzorec stolpca uporabljenega za pridobitev pixbuf ikone z/iz"
+
+#: ../exo/exo-icon-bar.c:310 ../exo/exo-icon-view.c:1041
+msgid "Text column"
+msgstr "Besedilni stolpec"
+
+#: ../exo/exo-icon-bar.c:311 ../exo/exo-icon-view.c:1042
+msgid "Model column used to retrieve the text from"
+msgstr "Vzorec stolpca uporabljenega za pridobitev besedila iz"
+
+#: ../exo/exo-icon-bar.c:323
+msgid "Icon Bar Model"
+msgstr "Vzorec ikonske vrstice"
+
+#: ../exo/exo-icon-bar.c:324
+msgid "Model for the icon bar"
+msgstr "Vzorec za ikonsko vrstico"
+
+#: ../exo/exo-icon-bar.c:340
+msgid "Active"
+msgstr "Dejaven"
+
+#: ../exo/exo-icon-bar.c:341
+msgid "Active item index"
+msgstr "Seznam dejavnih predmetov"
+
+#: ../exo/exo-icon-bar.c:347 ../exo/exo-icon-bar.c:348
+msgid "Active item fill color"
+msgstr "Barva polnila dejavnih predmetov "
+
+#: ../exo/exo-icon-bar.c:354 ../exo/exo-icon-bar.c:355
+msgid "Active item border color"
+msgstr "Barva obrobe dejavnih predmetov"
+
+#: ../exo/exo-icon-bar.c:361 ../exo/exo-icon-bar.c:362
+msgid "Active item text color"
+msgstr "Barva besedila dejavnih predmetov"
+
+#: ../exo/exo-icon-bar.c:368 ../exo/exo-icon-bar.c:369
+msgid "Cursor item fill color"
+msgstr "Barva polnila elementov kazalca"
+
+#: ../exo/exo-icon-bar.c:375 ../exo/exo-icon-bar.c:376
+msgid "Cursor item border color"
+msgstr "Barva obrobe predmeta kazalca"
+
+#: ../exo/exo-icon-bar.c:382 ../exo/exo-icon-bar.c:383
+msgid "Cursor item text color"
+msgstr "Barva besedila predmeta kazalca"
+
+#. EXO_ICON_CHOOSER_CONTEXT_ACTIONS
+#: ../exo/exo-icon-chooser-dialog.c:108
+msgid "Action Icons"
+msgstr "Ikone dejanj"
+
+#. EXO_ICON_CHOOSER_CONTEXT_ANIMATIONS
+#: ../exo/exo-icon-chooser-dialog.c:110
+msgid "Animations"
+msgstr "Animacije"
+
+#. EXO_ICON_CHOOSER_CONTEXT_APPLICATIONS
+#: ../exo/exo-icon-chooser-dialog.c:112
+msgid "Application Icons"
+msgstr "Ikone aplikacij"
+
+#. EXO_ICON_CHOOSER_CONTEXT_CATEGORIES
+#: ../exo/exo-icon-chooser-dialog.c:114
+msgid "Menu Icons"
+msgstr "Ikone menija"
+
+#. EXO_ICON_CHOOSER_CONTEXT_DEVICES
+#: ../exo/exo-icon-chooser-dialog.c:116
+msgid "Device Icons"
+msgstr "Ikone naprav"
+
+#. EXO_ICON_CHOOSER_CONTEXT_EMBLEMS
+#: ../exo/exo-icon-chooser-dialog.c:118
+msgid "Emblems"
+msgstr "Simboli"
+
+#. EXO_ICON_CHOOSER_CONTEXT_EMOTES
+#: ../exo/exo-icon-chooser-dialog.c:120
+msgid "Emoticons"
+msgstr "ustveni simboli"
+
+#. EXO_ICON_CHOOSER_CONTEXT_INTERNATIONAL
+#: ../exo/exo-icon-chooser-dialog.c:122
+msgid "International Denominations"
+msgstr "Mednarodna poimenovanja"
+
+#. EXO_ICON_CHOOSER_CONTEXT_MIME_TYPES
+#: ../exo/exo-icon-chooser-dialog.c:124
+msgid "File Type Icons"
+msgstr "Ikone vrst datotek"
+
+#. EXO_ICON_CHOOSER_CONTEXT_PLACES
+#: ../exo/exo-icon-chooser-dialog.c:126
+msgid "Location Icons"
+msgstr "Ikone lokacij"
+
+#. EXO_ICON_CHOOSER_CONTEXT_STATUS
+#: ../exo/exo-icon-chooser-dialog.c:128
+msgid "Status Icons"
+msgstr "Ikone statusa"
+
+#. EXO_ICON_CHOOSER_CONTEXT_OTHER
+#: ../exo/exo-icon-chooser-dialog.c:130
+msgid "Uncategorized Icons"
+msgstr "Nerazvrene ikone"
+
+#. EXO_ICON_CHOOSER_CONTEXT_ALL
+#: ../exo/exo-icon-chooser-dialog.c:134
+msgid "All Icons"
+msgstr "Vse ikone"
+
+#. EXO_ICON_CHOOSER_CONTEXT_FILE
+#: ../exo/exo-icon-chooser-dialog.c:138 ../exo/exo-icon-chooser-dialog.c:316
+msgid "Image Files"
+msgstr "Slikovne datoteke"
+
+#. setup the context combo box
+#: ../exo/exo-icon-chooser-dialog.c:222
+msgid "Select _icon from:"
+msgstr "Izberi _ikono iz:"
+
+#. search filter
+#: ../exo/exo-icon-chooser-dialog.c:246
+msgid "_Search icon:"
+msgstr "_Poii ikono:"
+
+#: ../exo/exo-icon-chooser-dialog.c:266
+msgid "Clear search field"
+msgstr "Poisti iskalno polje"
+
+#: ../exo/exo-icon-view.c:747
+msgid "Column Spacing"
+msgstr "Razmik stolpca"
+
+#: ../exo/exo-icon-view.c:748
+msgid "Space which is inserted between grid column"
+msgstr "Razmik, vstavljen med mree stolpca"
+
+#: ../exo/exo-icon-view.c:764
+msgid "Number of columns"
+msgstr "tevilo stolpcev"
+
+#: ../exo/exo-icon-view.c:765
+msgid "Number of columns to display"
+msgstr "tevilo stolpcev za prikaz"
+
+#: ../exo/exo-icon-view.c:779
+msgid "Enable Search"
+msgstr "Omogoči iskanje"
+
+#: ../exo/exo-icon-view.c:780
+msgid "View allows user to search through columns interactively"
+msgstr "Pogled dovoljuje uporabniku interaktivno iskanje med stolpci"
+
+#: ../exo/exo-icon-view.c:797
+msgid "Width for each item"
+msgstr "irina za vsak predmet"
+
+#: ../exo/exo-icon-view.c:798
+msgid "The width used for each item"
+msgstr "irina uporabljena za vsak predmet"
+
+#: ../exo/exo-icon-view.c:816
+msgid "Layout mode"
+msgstr "Nain postavitve"
+
+#: ../exo/exo-icon-view.c:817
+msgid "The layout mode"
+msgstr "Nain postavitve"
+
+#: ../exo/exo-icon-view.c:833
+msgid "Margin"
+msgstr "Stopnja"
+
+#: ../exo/exo-icon-view.c:834
+msgid "Space which is inserted at the edges of the icon view"
+msgstr "Razmik, vstavljen na robove ikonskega pogleda"
+
+#: ../exo/exo-icon-view.c:850
+msgid "Markup column"
+msgstr "Oznaevalni stolpec"
+
+#: ../exo/exo-icon-view.c:851
+msgid "Model column used to retrieve the text if using Pango markup"
+msgstr "Vzorec stolpca, uporabljenega za pridobitev besedila, e ta uporablja Pango oznaevanje"
+
+#: ../exo/exo-icon-view.c:865
+msgid "Icon View Model"
+msgstr "Vzorec ikonskega pogleda"
+
+#: ../exo/exo-icon-view.c:866
+msgid "The model for the icon view"
+msgstr "Vzorec za ikonski pogled"
+
+#: ../exo/exo-icon-view.c:880
+msgid ""
+"How the text and icon of each item are positioned relative to each other"
+msgstr "Kako sta besedilo in ikona vsakega predmeta postavljena v medsebojni relaciji"
+
+#: ../exo/exo-icon-view.c:914
+msgid "Icon column"
+msgstr "Stolpec z ikono"
+
+#: ../exo/exo-icon-view.c:915
+msgid ""
+"Model column used to retrieve the absolute path of an image file to render"
+msgstr "Stolpec modela z absolutno potjo do slikovne datoteke"
+
+#: ../exo/exo-icon-view.c:930
+msgid "Reorderable"
+msgstr "Prerazporedljivo"
+
+#: ../exo/exo-icon-view.c:931
+msgid "View is reorderable"
+msgstr "Pogled je prerazporedljiv"
+
+#: ../exo/exo-icon-view.c:946
+msgid "Row Spacing"
+msgstr "Razmik vrstic"
+
+#: ../exo/exo-icon-view.c:947
+msgid "Space which is inserted between grid rows"
+msgstr "Razmik, vstavljen med mree vrstic"
+
+#: ../exo/exo-icon-view.c:961
+msgid "Search Column"
+msgstr "Stolpec iskanja"
+
+#: ../exo/exo-icon-view.c:962
+msgid "Model column to search through when searching through item"
+msgstr "Vzorec stolpca za iskanje med iskanjem med predmeti"
+
+#: ../exo/exo-icon-view.c:976
+msgid "Selection mode"
+msgstr "Nain izbora"
+
+#: ../exo/exo-icon-view.c:977
+msgid "The selection mode"
+msgstr "Nain izbora"
+
+#: ../exo/exo-icon-view.c:992 ../exo/exo-tree-view.c:154
+msgid "Single Click"
+msgstr "Enojni klik"
+
+#: ../exo/exo-icon-view.c:993 ../exo/exo-tree-view.c:155
+msgid "Whether the items in the view can be activated with single clicks"
+msgstr "Ali so lahko predmeti v pogledu aktivirani z enojnim klikom"
+
+#: ../exo/exo-icon-view.c:1009 ../exo/exo-tree-view.c:171
+msgid "Single Click Timeout"
+msgstr "Zakasnitev enojnega klika"
+
+#: ../exo/exo-icon-view.c:1010 ../exo/exo-tree-view.c:172
+msgid ""
+"The amount of time after which the item under the mouse cursor will be "
+"selected automatically in single click mode"
+msgstr "Koliina asa po katerem bo predmet pod kazalcem mikeizbran samodejno v nainu enojnega klika"
+
+#: ../exo/exo-icon-view.c:1025
+msgid "Spacing"
+msgstr "Razmik"
+
+#: ../exo/exo-icon-view.c:1026
+msgid "Space which is inserted between cells of an item"
+msgstr "Razmik, vstavljen med celice predmeta"
+
+#: ../exo/exo-thumbnail-preview.c:120
+msgid "Preview"
+msgstr "Predogled"
+
+#: ../exo/exo-thumbnail-preview.c:141 ../exo/exo-thumbnail-preview.c:286
+msgid "No file selected"
+msgstr "Nobena datoteka ni izbrana"
+
+#: ../exo/exo-thumbnail-preview.c:304
+msgid "Block Device"
+msgstr "Blokiraj napravo"
+
+#: ../exo/exo-thumbnail-preview.c:309
+msgid "Character Device"
+msgstr "Naprava znakov"
+
+#: ../exo/exo-thumbnail-preview.c:314
+msgid "Folder"
+msgstr "Mapa"
+
+#: ../exo/exo-thumbnail-preview.c:319
+msgid "FIFO"
+msgstr "FIFO"
+
+#: ../exo/exo-thumbnail-preview.c:324
+msgid "Socket"
+msgstr "Vti"
+
+#: ../exo/exo-toolbars-editor-dialog.c:117
+msgid "_Add a new toolbar"
+msgstr "_Dodaj novo opravilno vrstico"
+
+#: ../exo/exo-toolbars-editor.c:221
+msgid ""
+"Drag an item onto the toolbars above to add it, from the toolbars in the "
+"items table to remove it."
+msgstr "Povleci predmet na opravilno vrstico, da bi ga dodal, ali snemi predmet z opravilne vrstice da bi ga odstranil."
+
+#: ../exo/exo-toolbars-editor.c:537
+msgid "Separator"
+msgstr "Loilec"
+
+#: ../exo/exo-toolbars-view.c:752
+msgid "Toolbar _Style"
+msgstr "I_zgled orodne vrstice"
+
+#: ../exo/exo-toolbars-view.c:759
+msgid "_Desktop Default"
+msgstr "_Privzeto za namizje"
+
+#: ../exo/exo-toolbars-view.c:768
+msgid "_Icons only"
+msgstr "_Samo ikone"
+
+#: ../exo/exo-toolbars-view.c:777
+msgid "_Text only"
+msgstr "Samo _Besedilo"
+
+#: ../exo/exo-toolbars-view.c:786
+msgid "Text for _All Icons"
+msgstr "Besedilo _Za vse ikone"
+
+#: ../exo/exo-toolbars-view.c:795
+msgid "Text for I_mportant Icons"
+msgstr "Besedilo _pomembnih ikon"
+
+#: ../exo/exo-toolbars-view.c:803
+msgid "_Remove Toolbar"
+msgstr "_Odstrani orodno vrstico"
+
+#: ../exo/exo-toolbars-view.c:818
+msgid "Customize Toolbar..."
+msgstr "Prilagodi orodno vrstico..."
+
+#: ../exo/exo-wrap-table.c:148
+msgid "Column spacing"
+msgstr "Razmik stolpcev"
+
+#: ../exo/exo-wrap-table.c:149
+msgid "The amount of space between two consecutive columns"
+msgstr "Razmak med zaporednima stolpcema"
+
+#: ../exo/exo-wrap-table.c:163
+msgid "Row spacing"
+msgstr "Razmik vrstic"
+
+#: ../exo/exo-wrap-table.c:164
+msgid "The amount of space between two consecutive rows"
+msgstr "Razmak med zaporednima vrsticama"
+
+#: ../exo/exo-wrap-table.c:178
+msgid "Homogeneous"
+msgstr "Homogeno"
+
+#: ../exo/exo-wrap-table.c:179
+msgid "Whether the children should be all the same size"
+msgstr "e naj bojo otroci vsi enake velikosti"
+
+#: ../exo/exo-xsession-client.c:210
+msgid "Window group"
+msgstr "Skupina oken"
+
+#: ../exo/exo-xsession-client.c:211
+msgid "Window group leader"
+msgstr "Vodja skupine oken"
+
+#: ../exo/exo-xsession-client.c:221
+msgid "Restart command"
+msgstr "Ponovno zaeni ukaz"
+
+#: ../exo/exo-xsession-client.c:222
+msgid "Session restart command"
+msgstr "Ukaz za ponoven zagon seje"
+
+#: ../exo-csource/main.c:284
+#, c-format
+msgid "Usage: %s [options] [file]\n"
+msgstr "Uporaba: %s [možnosti] [datoteka]\n"
+
+#: ../exo-csource/main.c:285
+#, c-format
+msgid "       %s [options] --build-list [[name file]...]\n"
+msgstr "       %s [options] --build-list [[name file]...]\n"
+
+#: ../exo-csource/main.c:287
+#, c-format
+msgid "  -h, --help        Print this help message and exit\n"
+msgstr "  -h, --help        Natisni to sporoilo pomoi in izstopi\n"
+
+#: ../exo-csource/main.c:288
+#, c-format
+msgid "  -V, --version     Print version information and exit\n"
+msgstr "  -V, --version     Podatki o različici\n"
+
+#: ../exo-csource/main.c:289
+#, c-format
+msgid "  --extern          Generate extern symbols\n"
+msgstr "  --extern          Ustvari eksterne simbole\n"
+
+#: ../exo-csource/main.c:290
+#, c-format
+msgid "  --static          Generate static symbols\n"
+msgstr "  --static          Ustvari statine simbole\n"
+
+#: ../exo-csource/main.c:291
+#, c-format
+msgid "  --name=identifier C macro/variable name\n"
+msgstr "  --name=identifier C macro/variable name\n"
+
+#: ../exo-csource/main.c:292
+#, c-format
+msgid "  --build-list      Parse (name, file) pairs\n"
+msgstr "  --build-list      Parse (name, file) pairs\n"
+
+#: ../exo-csource/main.c:293
+#, c-format
+msgid "  --strip-comments  Remove comments from XML files\n"
+msgstr "  --strip-comments  Odstrani komentarje iz XML datotek\n"
+
+#: ../exo-csource/main.c:294
+#, c-format
+msgid "  --strip-content   Remove node contents from XML files\n"
+msgstr "  --strip-content   Remove node contents from XML files\n"
+
+#: ../exo-csource/main.c:304 ../exo-desktop-item-edit/main.c:195
+#: ../exo-open/main.c:505
+#, c-format
+msgid ""
+"Copyright (c) %s\n"
+"        os-cillation e.K. All rights reserved.\n"
+"\n"
+"Written by Benedikt Meurer <benny@xfce.org>.\n"
+"\n"
+msgstr "Copyright (c) %s\n        os-cillation e.K. Vse pravice pridrane.\n\nNapisal Benedikt Meurer <benny@xfce.org>.\n\n"
+
+#: ../exo-csource/main.c:308 ../exo-desktop-item-edit/main.c:199
+#: ../exo-open/main.c:509
+#, c-format
+msgid ""
+"%s comes with ABSOLUTELY NO WARRANTY,\n"
+"You may redistribute copies of %s under the terms of\n"
+"the GNU Lesser General Public License which can be found in the\n"
+"%s source package.\n"
+"\n"
+msgstr "%s je na uporabo BREZ KAKRNEKOLI GARANCIJE,\nkopije %s lahko razpeujete pod pogoji\nGNU Lesser General Public License, ki jih lahko najdete v\nizvornem paketu %s.\n\n"
+
+#: ../exo-csource/main.c:312 ../exo-desktop-item-edit/main.c:203
+#: ../exo-open/main.c:513
+#, c-format
+msgid "Please report bugs to <%s>.\n"
+msgstr "Prosimo, sporočite napake na <%s>.\n"
+
+#. allocate the file chooser
+#: ../exo-desktop-item-edit/exo-die-command-entry.c:257
+msgid "Select an Application"
+msgstr "Izberite program"
+
+#: ../exo-desktop-item-edit/exo-die-command-entry.c:260
+#: ../exo-desktop-item-edit/exo-die-editor.c:594
+#: ../exo-desktop-item-edit/exo-die-editor.c:642
+#: ../exo-desktop-item-edit/main.c:326 ../exo-desktop-item-edit/main.c:519
+#: ../exo-helper/exo-helper-chooser.c:386
+#: ../exo-helper/exo-helper-chooser.c:531
+#: ../exo-helper/exo-helper-launcher-dialog.c:109
+msgid "_Cancel"
+msgstr "_Prekliči"
+
+#: ../exo-desktop-item-edit/exo-die-command-entry.c:261
+#: ../exo-helper/exo-helper-chooser.c:387
+msgid "_Open"
+msgstr "_Odpri"
+
+#: ../exo-desktop-item-edit/exo-die-command-entry.c:266
+#: ../exo-helper/exo-helper-chooser.c:393
+msgid "All Files"
+msgstr "Vse datoteke"
+
+#: ../exo-desktop-item-edit/exo-die-command-entry.c:271
+#: ../exo-helper/exo-helper-chooser.c:398
+msgid "Executable Files"
+msgstr "Izvedljive datoteke"
+
+#: ../exo-desktop-item-edit/exo-die-command-entry.c:286
+#: ../exo-helper/exo-helper-chooser.c:413
+msgid "Perl Scripts"
+msgstr "Skripti Perl"
+
+#: ../exo-desktop-item-edit/exo-die-command-entry.c:292
+#: ../exo-helper/exo-helper-chooser.c:419
+msgid "Python Scripts"
+msgstr "Skripti Python"
+
+#: ../exo-desktop-item-edit/exo-die-command-entry.c:298
+#: ../exo-helper/exo-helper-chooser.c:425
+msgid "Ruby Scripts"
+msgstr "Skripti Ruby"
+
+#: ../exo-desktop-item-edit/exo-die-command-entry.c:304
+#: ../exo-helper/exo-helper-chooser.c:431
+msgid "Shell Scripts"
+msgstr "Skripti ukazne lupine"
+
+#: ../exo-desktop-item-edit/exo-die-desktop-model.c:288
+#, c-format
+msgid "Create Launcher <b>%s</b>"
+msgstr "Ustvarite zaganjalec <b>%s</b>"
+
+#. TRANSLATORS: Label in "Create Launcher"/"Create Link" dialog, make sure to
+#. avoid mnemonic conflicts
+#: ../exo-desktop-item-edit/exo-die-editor.c:295
+msgid "_Name:"
+msgstr "_Ime:"
+
+#. TRANSLATORS: Label in "Create Launcher"/"Create Link" dialog, make sure to
+#. avoid mnemonic conflicts
+#: ../exo-desktop-item-edit/exo-die-editor.c:312
+msgid "C_omment:"
+msgstr "_Opomba:"
+
+#. TRANSLATORS: Label in "Create Launcher" dialog, make sure to avoid mnemonic
+#. conflicts
+#: ../exo-desktop-item-edit/exo-die-editor.c:329
+msgid "Comm_and:"
+msgstr "_Ukaz:"
+
+#. TRANSLATORS: Label in "Create Link" dialog, make sure to avoid mnemonic
+#. conflicts
+#: ../exo-desktop-item-edit/exo-die-editor.c:345
+msgid "_URL:"
+msgstr "Naslov _URL:"
+
+#. TRANSLATORS: Label in "Create Launcher" dialog, make sure to avoid mnemonic
+#. conflicts
+#: ../exo-desktop-item-edit/exo-die-editor.c:362
+msgid "Working _Directory:"
+msgstr "_Delovna mapa:"
+
+#. TRANSLATORS: Label in "Create Launcher"/"Create Link" dialog, make sure to
+#. avoid mnemonic conflicts
+#: ../exo-desktop-item-edit/exo-die-editor.c:392
+msgid "_Icon:"
+msgstr "I_kona:"
+
+#. TRANSLATORS: Label for the icon button in "Create Launcher"/"Create Link"
+#. dialog if no icon selected
+#. setup a label to tell that no icon was selected
+#: ../exo-desktop-item-edit/exo-die-editor.c:406
+#: ../exo-desktop-item-edit/exo-die-editor.c:1235
+msgid "No icon"
+msgstr "Brez ikone"
+
+#: ../exo-desktop-item-edit/exo-die-editor.c:412
+msgid "Options:"
+msgstr "Možnosti:"
+
+#. TRANSLATORS: Check button label in "Create Launcher" dialog, make sure to
+#. avoid mnemonic conflicts
+#. *              and sync your translations with the translations in Thunar
+#. and xfce4-panel.
+#: ../exo-desktop-item-edit/exo-die-editor.c:421
+msgid "Use _startup notification"
+msgstr "Uporabi obvestilo ob _zagonu"
+
+#: ../exo-desktop-item-edit/exo-die-editor.c:422
+msgid ""
+"Select this option to enable startup notification when the command is run "
+"from the file manager or the menu. Not every application supports startup "
+"notification."
+msgstr "Izberite to opcijo za omogočanje zagonskega obvestila ob zagonu ukaza v upravljalniku datotek ali meniju. Zagonskega obvestila ne podpira vsaka aplikacija."
+
+#. TRANSLATORS: Check button label in "Create Launcher" dialog, make sure to
+#. avoid mnemonic conflicts
+#. *              and sync your translations with the translations in Thunar
+#. and xfce4-panel.
+#: ../exo-desktop-item-edit/exo-die-editor.c:435
+msgid "Run in _terminal"
+msgstr "Zaženi v _terminalu"
+
+#: ../exo-desktop-item-edit/exo-die-editor.c:436
+msgid "Select this option to run the command in a terminal window."
+msgstr "Izberite to opcijo za zagon ukaza v oknu terminala"
+
+#. allocate the icon chooser dialog
+#: ../exo-desktop-item-edit/exo-die-editor.c:592
+msgid "Select an icon"
+msgstr "Izberite ikono"
+
+#: ../exo-desktop-item-edit/exo-die-editor.c:595
+#: ../exo-desktop-item-edit/exo-die-editor.c:643
+#: ../exo-helper/exo-helper-chooser.c:532
+#: ../exo-helper/exo-helper-launcher-dialog.c:110
+msgid "_OK"
+msgstr "_V redu"
+
+#. allocate the file chooser dialog
+#: ../exo-desktop-item-edit/exo-die-editor.c:639
+msgid "Select a working directory"
+msgstr "Izberite delovno mapo"
+
+#: ../exo-desktop-item-edit/exo-die-utils.c:169
+msgid "File location is not a regular file or directory"
+msgstr "Lokacija datoteke ni običajna datoteka ali imenik"
+
+#. --- constants ---
+#: ../exo-desktop-item-edit/main.c:52
+msgid "Create Launcher"
+msgstr "Ustvari zaganjalnik"
+
+#: ../exo-desktop-item-edit/main.c:52
+msgid "Create Link"
+msgstr "Ustvarite povezavo"
+
+#: ../exo-desktop-item-edit/main.c:52
+msgid "Create Directory"
+msgstr "Ustvari mapo"
+
+#: ../exo-desktop-item-edit/main.c:53
+msgid "Edit Launcher"
+msgstr "Uredi zaganjalnik"
+
+#: ../exo-desktop-item-edit/main.c:53
+msgid "Edit Link"
+msgstr "Uredite povezavo"
+
+#: ../exo-desktop-item-edit/main.c:53
+msgid "Edit Directory"
+msgstr "Uredi mapo"
+
+#: ../exo-desktop-item-edit/main.c:78
+msgid "Create a new desktop file in the given directory"
+msgstr "Ustvarite novo namizno datoteko v izbranem imeniku"
+
+#: ../exo-desktop-item-edit/main.c:79
+msgid "Type of desktop file to create (Application or Link)"
+msgstr "Tip namizne datoteke, ki jo želite ustvariti (aplikacija ali povezava)"
+
+#: ../exo-desktop-item-edit/main.c:80
+msgid "Preset name when creating a desktop file"
+msgstr "Prednastavljeno ime ob ustvarjanju datoteke namizja"
+
+#: ../exo-desktop-item-edit/main.c:81
+msgid "Preset comment when creating a desktop file"
+msgstr "Prednastavljen komentar ob ustvarjanju datoteke namizja"
+
+#: ../exo-desktop-item-edit/main.c:82
+msgid "Preset command when creating a launcher"
+msgstr "Prednastavljen ukaz ob ustvarjanju zaganjalca"
+
+#: ../exo-desktop-item-edit/main.c:83
+msgid "Preset URL when creating a link"
+msgstr "Prednastavljen URL ob ustvarjanju povezave"
+
+#: ../exo-desktop-item-edit/main.c:84
+msgid "Preset icon when creating a desktop file"
+msgstr "Prednastavljena ikona ob ustvarjanju datoteke namizja"
+
+#: ../exo-desktop-item-edit/main.c:85 ../exo-helper/main.c:71
+msgid "Print version information and exit"
+msgstr "Podatki o različici"
+
+#. initialize Gtk+
+#: ../exo-desktop-item-edit/main.c:171
+msgid "[FILE|FOLDER]"
+msgstr "[DATOTEKA|MAPA]"
+
+#. no error message, the GUI initialization failed
+#: ../exo-desktop-item-edit/main.c:183
+msgid "Failed to open display"
+msgstr "Napaka pri odpiranju prikazovalnika"
+
+#: ../exo-desktop-item-edit/main.c:210
+msgid "No file/folder specified"
+msgstr "Ni navedene datoteke/mape"
+
+#: ../exo-desktop-item-edit/main.c:276
+#, c-format
+msgid "Failed to load contents from \"%s\": %s"
+msgstr "Napaka pri nalaganju vsebine \"%s\": %s"
+
+#: ../exo-desktop-item-edit/main.c:281
+#, c-format
+msgid "The file \"%s\" contains no data"
+msgstr "Datoteka \"%s\" ne vsebuje podatkov"
+
+#. failed to parse the file
+#: ../exo-desktop-item-edit/main.c:294
+#, c-format
+msgid "Failed to parse contents of \"%s\": %s"
+msgstr "Napaka pri razčlenjevanju vsebine \"%s\": %s "
+
+#. we cannot continue without a type
+#: ../exo-desktop-item-edit/main.c:306
+#, c-format
+msgid "File \"%s\" has no type key"
+msgstr "Datoteka \"%s\" nima vrste ključa"
+
+#. tell the user that we don't support the type
+#: ../exo-desktop-item-edit/main.c:316
+#, c-format
+msgid "Unsupported desktop file type \"%s\""
+msgstr "Nepodprta  vrsta datoteke namizja \"%s\""
+
+#. add the "Help" button
+#: ../exo-desktop-item-edit/main.c:331
+#: ../exo-helper/exo-helper-chooser-dialog.c:104
+msgid "_Help"
+msgstr "_Pomoč"
+
+#. add the "Create"/"Save" button (as default)
+#: ../exo-desktop-item-edit/main.c:340
+msgid "C_reate"
+msgstr "U_stvari"
+
+#: ../exo-desktop-item-edit/main.c:340 ../exo-desktop-item-edit/main.c:520
+msgid "_Save"
+msgstr "_Shrani"
+
+#. create failed, ask the user to specify a file name
+#: ../exo-desktop-item-edit/main.c:516
+msgid "Choose filename"
+msgstr "Izberi ime datoteke"
+
+#: ../exo-desktop-item-edit/main.c:623
+#, c-format
+msgid "Failed to create \"%s\"."
+msgstr "Napaka pri ustvarjanju \"%s\"."
+
+#: ../exo-desktop-item-edit/main.c:623
+#, c-format
+msgid "Failed to save \"%s\"."
+msgstr "Napaka pri shranjevanju \"%s\"."
+
+#: ../exo-helper/exo-helper-chooser-dialog.c:98
+msgid "_Close"
+msgstr "_Zapri"
+
+#: ../exo-helper/exo-helper-chooser-dialog.c:100
+#: ../exo-helper/exo-preferred-applications.desktop.in.h:1
+msgid "Preferred Applications"
+msgstr "Priljubljene aplikacije"
+
+#: ../exo-helper/exo-helper-chooser-dialog.c:101
+msgid "Select default applications for various services"
+msgstr "Izberite privzete aplikacije za različne storitve"
+
+#. Internet
+#: ../exo-helper/exo-helper-chooser-dialog.c:126
+msgid "_Internet"
+msgstr "_Splet"
+
+#: ../exo-helper/exo-helper-chooser-dialog.c:139
+#: ../exo-open/exo-web-browser.desktop.in.h:1
+msgid "Web Browser"
+msgstr "Spletni brskalnik"
+
+#: ../exo-helper/exo-helper-chooser-dialog.c:147
+msgid ""
+"The preferred Web Browser will be used to open\n"
+"hyperlinks and display help contents."
+msgstr "Priljubljeni spletni brskalnik, uporabljen za odpiranje\nhiperpovezav in za predvajanje vsebine pomoči."
+
+#: ../exo-helper/exo-helper-chooser-dialog.c:171
+#: ../exo-open/exo-mail-reader.desktop.in.h:1
+msgid "Mail Reader"
+msgstr "Bralnik pošte"
+
+#: ../exo-helper/exo-helper-chooser-dialog.c:179
+msgid ""
+"The preferred Mail Reader will be used to compose\n"
+"emails when you click on email addresses."
+msgstr "Izbrani bralnik pošte bo uporabljen za pisanje\nelektronske pošte, ko kliknete na naslov elektronske pošte."
+
+#. Utilities
+#: ../exo-helper/exo-helper-chooser-dialog.c:199
+msgid "_Utilities"
+msgstr "_Pripomočki"
+
+#: ../exo-helper/exo-helper-chooser-dialog.c:212
+#: ../exo-open/exo-file-manager.desktop.in.h:1
+msgid "File Manager"
+msgstr "Upravljalnik datotek"
+
+#: ../exo-helper/exo-helper-chooser-dialog.c:220
+msgid ""
+"The preferred File Manager will be used to\n"
+"browse the contents of folders."
+msgstr "Izbrani brskalnik datotek bo uporabljen za\nbrskanje po vsebini map."
+
+#: ../exo-helper/exo-helper-chooser-dialog.c:244
+#: ../exo-open/exo-terminal-emulator.desktop.in.h:1
+msgid "Terminal Emulator"
+msgstr "Terminalski emulator"
+
+#: ../exo-helper/exo-helper-chooser-dialog.c:252
+msgid ""
+"The preferred Terminal Emulator will be used to\n"
+"run commands that require a CLI environment."
+msgstr "Izbrani terminalski emulator bo uporabljen za\nzagon ukazov, ki potrebujejo znakovni uporabniški vmesnik."
+
+#: ../exo-helper/exo-helper-chooser.c:145
+#: ../exo-helper/exo-helper-chooser.c:152
+msgid "Press left mouse button to change the selected application."
+msgstr "Pritisnite na levi gumb miške za spreminjanje izbrane aplikacije."
+
+#: ../exo-helper/exo-helper-chooser.c:151
+msgid "Application Chooser Button"
+msgstr "Gumb za izbiranje aplikacij"
+
+#: ../exo-helper/exo-helper-chooser.c:294
+msgid "No application selected"
+msgstr "Ni izbrane aplikacije"
+
+#: ../exo-helper/exo-helper-chooser.c:310
+msgid "Failed to set default Web Browser"
+msgstr "Med nastavljanjem privzetega spletnega brskalnika je prišlo do napake"
+
+#: ../exo-helper/exo-helper-chooser.c:311
+msgid "Failed to set default Mail Reader"
+msgstr "Napaka pri nastavljanju privzetega bralnika pošte"
+
+#: ../exo-helper/exo-helper-chooser.c:312
+msgid "Failed to set default File Manager"
+msgstr "Med nastavljanjem privzetega upravljalnika datotek je prišlo do napake"
+
+#: ../exo-helper/exo-helper-chooser.c:313
+msgid "Failed to set default Terminal Emulator"
+msgstr "Napaka pri nastavljanju privzetega terminalskega emulatorja"
+
+#. allocate the chooser
+#: ../exo-helper/exo-helper-chooser.c:383
+msgid "Select application"
+msgstr "Izberite program"
+
+#: ../exo-helper/exo-helper-chooser.c:496
+msgid "Choose a custom Web Browser"
+msgstr "Izberi prilagojeni spletni brskalnik"
+
+#: ../exo-helper/exo-helper-chooser.c:497
+msgid "Choose a custom Mail Reader"
+msgstr "Izberi prilagojeni bralnik pošte"
+
+#: ../exo-helper/exo-helper-chooser.c:498
+msgid "Choose a custom File Manager"
+msgstr "Izberi prilagojeni upravljalnik datotek"
+
+#: ../exo-helper/exo-helper-chooser.c:499
+msgid "Choose a custom Terminal Emulator"
+msgstr "Izberi prilagojeni terminalski emulator"
+
+#: ../exo-helper/exo-helper-chooser.c:504
+msgid ""
+"Specify the application you want to use\n"
+"as default Web Browser for Xfce:"
+msgstr "Navedite aplikacijo, ki jo želite uporabiti\nkot privzeti spletni brskalnik v Xfce-ju:"
+
+#: ../exo-helper/exo-helper-chooser.c:505
+msgid ""
+"Specify the application you want to use\n"
+"as default Mail Reader for Xfce:"
+msgstr "Navedite aplikacijo, ki jo želite uporabiti\nkot privzeti bralnik pošte v Xfce-ju:"
+
+#: ../exo-helper/exo-helper-chooser.c:506
+msgid ""
+"Specify the application you want to use\n"
+"as default File Manager for Xfce:"
+msgstr "Navedite aplikacijo, ki jo želite uporabiti\nkot privzeti upravljalnik datotek v Xfce-ju:"
+
+#: ../exo-helper/exo-helper-chooser.c:507
+msgid ""
+"Specify the application you want to use\n"
+"as default Terminal Emulator for Xfce:"
+msgstr "Navedite aplikacijo, ki jo želite uporabiti\nkot privzeti terminalski emulator v Xfce-ju:"
+
+#: ../exo-helper/exo-helper-chooser.c:571
+msgid "Browse the file system to choose a custom command."
+msgstr "Prebrskajte datotečni sistem za izbor prilagojenega ukaza."
+
+#: ../exo-helper/exo-helper-chooser.c:764
+msgid "_Other..."
+msgstr "_Ostalo..."
+
+#: ../exo-helper/exo-helper-chooser.c:765
+msgid "Use a custom application which is not included in the above list."
+msgstr "Uporabi prirejeno aplikacijo, ki ni navedena na seznamu."
+
+#: ../exo-helper/exo-helper-launcher-dialog.c:113
+msgid "Choose Preferred Application"
+msgstr "Izberite želeno aplikacijo"
+
+#: ../exo-helper/exo-helper-launcher-dialog.c:256
+msgid ""
+"Please choose your preferred Web\n"
+"Browser now and click OK to proceed."
+msgstr "Prosim, izberite želen spletni\nbrskalnik in kliknite OK za nadaljevanje."
+
+#: ../exo-helper/exo-helper-launcher-dialog.c:258
+msgid ""
+"Please choose your preferred Mail Reader\n"
+"now and click OK to proceed."
+msgstr "Prosim, izberite želen brskalnik pošte\nin kliknite OK za nadaljevanje."
+
+#: ../exo-helper/exo-helper-launcher-dialog.c:260
+msgid ""
+"Please choose your preferred File Manager\n"
+"now and click OK to proceed."
+msgstr "Prosim, izberite želen upravljalnik datotek\nin kliknite OK za nadaljevanje."
+
+#: ../exo-helper/exo-helper-launcher-dialog.c:262
+msgid ""
+"Please choose your preferred Terminal\n"
+"Emulator now and click OK to proceed."
+msgstr "Prosim, izberite želen terminalski\nemulator in kliknite OK za nadaljevanje."
+
+#: ../exo-helper/exo-helper.c:384
+#, c-format
+msgid "No command specified"
+msgstr "Ni določenega ukaza"
+
+#: ../exo-helper/exo-helper.c:697 ../exo-helper/exo-helper.c:735
+#, c-format
+msgid "Failed to open %s for writing"
+msgstr "Napaka pri odpiranju %s za zapisovanje"
+
+#: ../exo-helper/exo-preferred-applications.desktop.in.h:2
+msgid ""
+"Preferred Applications (Web Browser, Mail Reader and Terminal Emulator)"
+msgstr "Želene aplikacije (spletni brskalnik, bralnik pošte in terminalski emulator)"
+
+#: ../exo-helper/main.c:42
+msgid "Failed to execute default Web Browser"
+msgstr "Napaka pri izvajanju želenega spletnega brskalnika"
+
+#: ../exo-helper/main.c:43
+msgid "Failed to execute default Mail Reader"
+msgstr "Napaka pri izvajanju želenega bralnika pošte"
+
+#: ../exo-helper/main.c:44
+msgid "Failed to execute default File Manager"
+msgstr "Napaka pri izvajanju želenega upravljalnika datotek"
+
+#: ../exo-helper/main.c:45
+msgid "Failed to execute default Terminal Emulator"
+msgstr "Napaka pri izvajanju želenega terminalskega emulatorja"
+
+#: ../exo-helper/main.c:72
+msgid ""
+"Open the Preferred Applications\n"
+"configuration dialog"
+msgstr "Odprite zaželeno nastavitveno\nokno aplikacij"
+
+#: ../exo-helper/main.c:73
+msgid "Settings manager socket"
+msgstr "Priključek upravljalca nastavitev"
+
+#: ../exo-helper/main.c:73
+msgid "SOCKET ID"
+msgstr "ID PRIKLJUČKA"
+
+#: ../exo-helper/main.c:74
+msgid ""
+"Launch the default helper of TYPE with the optional PARAMETER, where TYPE is"
+" one of the following values."
+msgstr "Zaženi privzeti pomočnik TIP z iz izbirnim PARAMETER, kjer je TIP ena od sledečih vrednosti."
+
+#: ../exo-helper/main.c:74
+msgid "TYPE [PARAMETER]"
+msgstr "TIP [PARAMETER]"
+
+#: ../exo-helper/main.c:103
+msgid ""
+"The following TYPEs are supported for the --launch command:\n"
+"\n"
+"  WebBrowser       - The preferred Web Browser.\n"
+"  MailReader       - The preferred Mail Reader.\n"
+"  FileManager      - The preferred File Manager.\n"
+"  TerminalEmulator - The preferred Terminal Emulator."
+msgstr "Naslednji TIPi so podprti za --launch command:\n\n WebBrowser - želeni spletni brskalnik.\n MailReader - želeni bralnik pošte.\n FileManager - želeni upravljalnik datotek.\n TerminalEmulator - želeni terminalski emulator."
+
+#: ../exo-helper/main.c:113
+#, c-format
+msgid "Type '%s --help' for usage."
+msgstr "Za navodila o uporabi zaženite ukaz \"%s --help\"."
+
+#: ../exo-helper/main.c:172
+#, c-format
+msgid "Invalid helper type \"%s\""
+msgstr "Nepravilen pomočnik tipa \"%s\""
+
+#: ../exo-helper/main.c:220
+#, c-format
+msgid ""
+"%s (Xfce %s)\n"
+"\n"
+"Copyright (c) 2003-2006\n"
+"        os-cillation e.K. All rights reserved.\n"
+"\n"
+"Written by Benedikt Meurer <benny@xfce.org>.\n"
+"\n"
+"Built with Gtk+-%d.%d.%d, running Gtk+-%d.%d.%d.\n"
+"\n"
+"Please report bugs to <%s>.\n"
+msgstr "%s (Xfce %s)\n\nCopyright (c) 2003-2006\n os-cillation e.K. Vse pravice pridržane.\n\nNapisal Benedikt Meurer <benny@xfce.org>.\n\nZgrajeno z Gtk+-%d.%d.%d, teče na Gtk+-%d.%d.%d.\n\nProsim, prijavite hroše na <%s>.\n"
+
+#: ../exo-helper/helpers/aterm.desktop.in.in.h:1
+msgid "aterm"
+msgstr "aterm"
+
+#: ../exo-helper/helpers/balsa.desktop.in.in.h:1
+msgid "Balsa"
+msgstr "Balsa"
+
+#: ../exo-helper/helpers/caja.desktop.in.in.h:1
+msgid "Caja File Manager"
+msgstr "Caja upravljalnik datotek"
+
+#: ../exo-helper/helpers/chromium.desktop.in.in.h:1
+msgid "Chromium"
+msgstr "Chromium"
+
+#: ../exo-helper/helpers/debian-sensible-browser.desktop.in.in.h:1
+msgid "Debian Sensible Browser"
+msgstr "Debian Sensible brskalnik"
+
+#: ../exo-helper/helpers/debian-x-terminal-emulator.desktop.in.in.h:1
+msgid "Debian X Terminal Emulator"
+msgstr "Debianov X terminalski emulator"
+
+#: ../exo-helper/helpers/dillo.desktop.in.in.h:1
+msgid "Dillo"
+msgstr "Dillo"
+
+#: ../exo-helper/helpers/encompass.desktop.in.in.h:1
+msgid "Encompass"
+msgstr "Encompass"
+
+#: ../exo-helper/helpers/epiphany.desktop.in.in.h:1
+msgid "Epiphany Web Browser"
+msgstr "Epiphany spletni brskalnik"
+
+#: ../exo-helper/helpers/eterm.desktop.in.in.h:1
+msgid "Enlightened Terminal Emulator"
+msgstr "Enlightened terminalski emulator"
+
+#: ../exo-helper/helpers/evolution.desktop.in.in.h:1
+msgid "Evolution"
+msgstr "Evolution"
+
+#: ../exo-helper/helpers/firefox.desktop.in.in.h:1
+msgid "Mozilla Firefox"
+msgstr "Mozilla Firefox"
+
+#: ../exo-helper/helpers/galeon.desktop.in.in.h:1
+msgid "Galeon Web Browser"
+msgstr "Galeon spletni brskalnik"
+
+#: ../exo-helper/helpers/gnome-terminal.desktop.in.in.h:1
+msgid "GNOME Terminal"
+msgstr "GNOME terminal"
+
+#: ../exo-helper/helpers/icecat.desktop.in.in.h:1
+msgid "Icecat"
+msgstr "Icecat"
+
+#: ../exo-helper/helpers/icedove.desktop.in.in.h:1
+msgid "Icedove"
+msgstr "Icedove"
+
+#: ../exo-helper/helpers/iceweasel.desktop.in.in.h:1
+msgid "Iceweasel"
+msgstr "Iceweasel"
+
+#: ../exo-helper/helpers/jumanji.desktop.in.in.h:1
+msgid "Jumanji"
+msgstr "Jumanji"
+
+#: ../exo-helper/helpers/kmail.desktop.in.in.h:1
+msgid "KMail"
+msgstr "KMail"
+
+#: ../exo-helper/helpers/konqueror.desktop.in.in.h:1
+msgid "Konqueror Web Browser"
+msgstr "Konqueror spletni brskalnik"
+
+#: ../exo-helper/helpers/links.desktop.in.in.h:1
+msgid "Links Text Browser"
+msgstr "Links besedilni brskalnik"
+
+#: ../exo-helper/helpers/lynx.desktop.in.in.h:1
+msgid "Lynx Text Browser"
+msgstr "Lynx besedilni brskalnik"
+
+#: ../exo-helper/helpers/midori.desktop.in.in.h:1
+msgid "Midori"
+msgstr "Midori"
+
+#: ../exo-helper/helpers/mozilla-browser.desktop.in.in.h:1
+msgid "Mozilla Browser"
+msgstr "Mozillin brskalnik"
+
+#: ../exo-helper/helpers/mozilla-mailer.desktop.in.in.h:1
+msgid "Mozilla Mail"
+msgstr "Mozillina pošta"
+
+#: ../exo-helper/helpers/mutt.desktop.in.in.h:1
+msgid "Mutt"
+msgstr "Mutt"
+
+#: ../exo-helper/helpers/nautilus.desktop.in.in.h:1
+msgid "Nautilus"
+msgstr "Nautilus"
+
+#: ../exo-helper/helpers/netscape-navigator.desktop.in.in.h:1
+msgid "Netscape Navigator"
+msgstr "Netscape Navigator"
+
+#: ../exo-helper/helpers/nxterm.desktop.in.in.h:1
+msgid "NXterm"
+msgstr "NXterm"
+
+#: ../exo-helper/helpers/opera-browser.desktop.in.in.h:1
+msgid "Opera Browser"
+msgstr "Opera brskalnik"
+
+#: ../exo-helper/helpers/opera-mailer.desktop.in.in.h:1
+msgid "Opera Mail"
+msgstr "Opera Mail"
+
+#: ../exo-helper/helpers/pcmanfm.desktop.in.in.h:1
+msgid "PCMan File Manager"
+msgstr "PCMan brskalnik datotek"
+
+#: ../exo-helper/helpers/qterminal.desktop.in.in.h:1
+msgid "QTerminal"
+msgstr "QTerminal"
+
+#: ../exo-helper/helpers/qtfm.desktop.in.in.h:1
+msgid "qtFM"
+msgstr "qtFM"
+
+#: ../exo-helper/helpers/qupzilla.desktop.in.in.h:1
+msgid "QupZilla"
+msgstr "QupZilla"
+
+#: ../exo-helper/helpers/rodent.desktop.in.in.h:1
+msgid "Rodent File Manager"
+msgstr "Rodent brskalnik datotek"
+
+#: ../exo-helper/helpers/rox-filer.desktop.in.in.h:1
+msgid "ROX-Filer"
+msgstr "ROX-Filer"
+
+#: ../exo-helper/helpers/sakura.desktop.in.in.h:1
+msgid "Sakura"
+msgstr "Sakura"
+
+#: ../exo-helper/helpers/surf.desktop.in.in.h:1
+msgid "Surf"
+msgstr "Surf"
+
+#: ../exo-helper/helpers/sylpheed.desktop.in.in.h:1
+msgid "Sylpheed"
+msgstr "Sylpheed"
+
+#: ../exo-helper/helpers/sylpheed-claws.desktop.in.in.h:1
+msgid "Claws Mail"
+msgstr "Claws Mail"
+
+#: ../exo-helper/helpers/Thunar.desktop.in.in.h:1
+msgid "Thunar"
+msgstr "Thunar"
+
+#: ../exo-helper/helpers/thunderbird.desktop.in.in.h:1
+msgid "Mozilla Thunderbird"
+msgstr "Mozilla Thunderbird"
+
+#: ../exo-helper/helpers/urxvt.desktop.in.in.h:1
+msgid "RXVT Unicode"
+msgstr "RXVT Unicode"
+
+#: ../exo-helper/helpers/vimprobable2.desktop.in.in.h:1
+msgid "Vimprobable2"
+msgstr "Vimprobable2"
+
+#: ../exo-helper/helpers/w3m.desktop.in.in.h:1
+msgid "W3M Text Browser"
+msgstr "W3M besedilni brskalnik"
+
+#: ../exo-helper/helpers/xfce4-terminal.desktop.in.in.h:1
+msgid "Xfce Terminal"
+msgstr "Xfce terminal"
+
+#: ../exo-helper/helpers/xfe.desktop.in.in.h:1
+msgid "Xfe File Manager"
+msgstr "Xfce brskalnik datotek"
+
+#: ../exo-helper/helpers/xterm.desktop.in.in.h:1
+msgid "X Terminal"
+msgstr "X terminal"
+
+#: ../exo-open/main.c:109
+msgid "Usage: exo-open [URLs...]"
+msgstr "Uporaba: exo-open [URL-ji ...]"
+
+#: ../exo-open/main.c:110
+msgid "       exo-open --launch TYPE [PARAMETERs...]"
+msgstr "exo-open --launch TIP [PARAMETERs...]"
+
+#: ../exo-open/main.c:112
+msgid "  -?, --help                          Print this help message and exit"
+msgstr " \t\r\n\r\n-?, --help Natisni sporočilo pomoči in izstopi"
+
+#: ../exo-open/main.c:113
+msgid ""
+"  -V, --version                       Print version information and exit"
+msgstr "  -V, --version                       Podatki o različici"
+
+#: ../exo-open/main.c:115
+msgid ""
+"  --launch TYPE [PARAMETERs...]       Launch the preferred application of\n"
+"                                      TYPE with the optional PARAMETERs, where\n"
+"                                      TYPE is one of the following values."
+msgstr "--launch TIP [PARAMETERs...] Zaženi želeno aplikacijo\n TIP z izbranimi PARAMETERs, kjer je\n TIP ena izmed sledečih vrednosti."
+
+#: ../exo-open/main.c:119
+msgid ""
+"  --working-directory DIRECTORY       Default working directory for applications\n"
+"                                      when using the --launch option."
+msgstr "--working-directory DIRECTORY Privzeti delovni imenik za aplikacije\n ob uporabi --launch opcije."
+
+#: ../exo-open/main.c:122
+msgid "The following TYPEs are supported for the --launch command:"
+msgstr "Naslednji TIPi so podprti za --launch ukaz:"
+
+#. Note to Translators: Do not translate the TYPEs (WebBrowser, MailReader,
+#. TerminalEmulator),
+#. * since the exo-helper utility will not accept localized TYPEs.
+#: ../exo-open/main.c:128
+msgid ""
+"  WebBrowser       - The preferred Web Browser.\n"
+"  MailReader       - The preferred Mail Reader.\n"
+"  FileManager      - The preferred File Manager.\n"
+"  TerminalEmulator - The preferred Terminal Emulator."
+msgstr "WebBrowser - želeni spletni brskalnik.\n MailReader - želeni bralnik pošte.\n FileManager - želeni upravljalnik datotek.\n TerminalEmulator - želeni terminalski emulator."
+
+#: ../exo-open/main.c:133
+msgid ""
+"If you don't specify the --launch option, exo-open will open all specified\n"
+"URLs with their preferred URL handlers. Else, if you specify the --launch\n"
+"option, you can select which preferred application you want to run, and\n"
+"pass additional parameters to the application (i.e. for TerminalEmulator\n"
+"you can pass the command line that should be run in the terminal)."
+msgstr "Če ne navedete --launch opcije, bo exo-open odprl vse navedene\nURLje v njihovih izbranih URL upravljalcih. Če pa navedete --launch\nopcijo, lahko izberete zaželeno aplikacijo za zagon in\ndodate parametre v aplikacijo (npr. za TerminalEmulator\nlahko dodate ukazno vrstico, ki se naj zažene v terminalu)."
+
+#: ../exo-open/main.c:195
+#, c-format
+msgid ""
+"Launching desktop files is not supported when %s is compiled without GIO-"
+"Unix features."
+msgstr "Zaganjanje namiznih datotek ni podprto, ko je %s kompiliran brez GIO-Unix funkcij."
+
+#: ../exo-open/main.c:269
+#, c-format
+msgid "Failed to launch preferred application for category \"%s\"."
+msgstr "Napaka pri zaganjanju želene aplikacije za \"%s\" kategorijo."
+
+#: ../exo-open/main.c:586
+#, c-format
+msgid "Unable to detect the URI-scheme of \"%s\"."
+msgstr "Napaka pri zaznavanju URI-sheme za \"%s\"."
+
+#: ../exo-open/main.c:600
+#, c-format
+msgid "Failed to open URI \"%s\"."
+msgstr "Napaka pri odpiranju URI \"%s\"."
+
+#: ../exo-open/exo-file-manager.desktop.in.h:2
+msgid "Browse the file system"
+msgstr "Brskajte po datotečnem sistemu"
+
+#: ../exo-open/exo-mail-reader.desktop.in.h:2
+msgid "Read your email"
+msgstr "Preberite svojo pošto"
+
+#: ../exo-open/exo-terminal-emulator.desktop.in.h:2
+msgid "Use the command line"
+msgstr "Izberi ukazno vrstico"
+
+#: ../exo-open/exo-web-browser.desktop.in.h:2
+msgid "Browse the web"
+msgstr "Brskaj po spletu"
